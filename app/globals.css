@@ -11,3 +11,7 @@
 /* Keep guide titles inside narrow covers, including enlarged text. */
 .guide{min-width:0}
 .guide strong{max-width:100%;overflow-wrap:anywhere;hyphens:manual}
+
+/* Затемнение под шапкой, чтобы меню читалось на светлых участках фото. */
+header{position:relative;z-index:1}
+header:before{content:"";position:absolute;left:0;right:0;top:0;bottom:-70px;z-index:-1;background:linear-gradient(180deg,rgba(12,34,36,.78),rgba(12,34,36,.42) 55%,rgba(12,34,36,0));pointer-events:none}
