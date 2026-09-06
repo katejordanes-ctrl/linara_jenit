@@ -10,3 +10,6 @@ node build-windows.mjs
 ```
 
 Статическая сборка создаётся в `dist/client`.
+
+
+Публикация: GitHub Pages.
